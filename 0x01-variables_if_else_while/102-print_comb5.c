@@ -47,5 +47,3 @@ while (f < 10)
 putchar('\n');
 return (0);
 }
-				}
-			
