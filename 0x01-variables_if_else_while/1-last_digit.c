@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
+
 /**
  * main - main block
  * Description: Check a random number's last digit and compare it with 5
  * Return: 0
 */
+
 int main(void)
 {
 	int n;
