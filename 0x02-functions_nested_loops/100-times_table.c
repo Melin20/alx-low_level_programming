@@ -3,6 +3,7 @@
 /**
  * print_times_table - prints the n times table starting with 0
  * if n > 15 or n < 0 the function should not print anything
+ * @n : times table to use
  */
 
 void print_times_table(int n)
@@ -34,7 +35,7 @@ while (a <= n)
 		}
 		else
 		{
-			_putchar('0' + rep /100);
+			_putchar('0' + rep / 100);
 			_putchar('0' + (rep - 100) / 10);
 			_putchar('0' + rep % 10);
 		}
