@@ -15,12 +15,12 @@ int main(void)
 	{
 		if (c % 2 == 0)
 		{
-			coutner += c;
+			counter += c;
 		}
 		a = b;
 		b = c;
 		c = a + b;
 	}
 	printf("%d\n", counter);
-	retrun (0);
+	return (0);
 }
