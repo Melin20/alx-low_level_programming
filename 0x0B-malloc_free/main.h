@@ -1,9 +1,31 @@
 #ifndef _MAIN_
 #define _MAIN_
 
+/**
+ * strtow - string to words
+ * @str: string to go to words
+ * Return: char value
+ */
 char **strtow(char *str);
+/**
+ * argstostr - args stuff
+ * @ac: arguments
+ * @av: array of arguments?
+ * Return: char array
+ */
 char *argstostr(int ac, char **av);
+/**
+ * free_grid - frees a grid
+ * @grid: grid to free
+ * @height: height of grid
+ */
 void free_grid(int **grid, int height);
+/**
+ * str_concat concats strings
+ * @s1: string one to concat
+ * @s2: string 2 to concat
+ * Return: returns a concated string
+ */
 char *str_concat(char *s1, char *s2);
 int **alloc_grid(int width, int height);
 char *_strdup(char *str);
